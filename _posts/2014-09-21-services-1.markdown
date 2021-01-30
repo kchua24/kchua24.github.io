@@ -1,8 +1,0 @@
----
-layout: default
-img: ipad.png
-category: Services
-title: Pic:<br>Special Thanks
-description: |
----
-  Thanks! [Death to the Stock Photo](http://join.deathtothestockphoto.com/) 

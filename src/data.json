@@ -1,0 +1,133 @@
+{
+    "colors": {
+        "color1" : "#171616",
+        "color2" : "#a5e3fa"
+    },
+    "sections" : [
+        {
+            "type" : "PICTURE",
+            "header" : "Kaitlyn Chua",
+            "data" : [
+                {
+                    "img": "kaitlynchua.jpg",
+                    "caption": "Welcome to my portfolio! My name is Kaitlyn and I am currently a junior at Stony Brook University as a member of the Honors College and the BME Honors Program. I love problem solving and science and am eager to see where biomedical engineering can take me in the future!"
+                }
+            ]
+        },
+        {
+            "type": "LIST_FADE",
+            "header": "About Me",
+            "data": [
+                {
+                    "type": "DEFAULT",
+                    "content": "Undergrad @ Stony Brook University"
+                },
+                {
+                    "type": "TAB",
+                    "content": "Biomedical Engineering"
+                },
+                {
+                    "type": "TAB",
+                    "content": "3.84 GPA"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Avid Learner"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Motivated Researcher"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Professional Binge Watcher"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Adventurous Foodie"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Aspiring Biomedical Engineer"
+                },
+                {
+                    "type": "DEFAULT",
+                    "content": "Incoming Intern @ Medtronic"
+                }
+            ]
+        },
+        {
+            "type": "BULLET",
+            "header": "Research Experience",
+            "data": [
+                {
+                    "content": "Stony Brook University Department of Biomechanics",
+                    "children": [
+                        "Conduct experiments to determine how to improve osteoarthritis treament and nerve regeneration.",
+                        "Experience with immunohistochemistry, cell culture protocol, cryosectioning, and confocal microscope imaging."
+                    ]
+                },
+                {
+                    "content": "Stony Brook Medicine Department of Bioinformatics",
+                    "children": [
+                        "Collaborated with multidisciplinary team to analyze Long Island education demographic data to determine __ stuff.",
+                        "Performed data analysis and created data visualizations and geospatial maps using Excel and ArcGIS."
+                    ]
+                },
+                {
+                    "content": "Stony Brook OB/GYN",
+                    "children": [
+                        "Performed retrospective chart review to determine the efficacy of nutritional counseling on gestational weight gain in obese women.",
+                        "Extracted data from patient medical records and conducted data analysis with SPSS."
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "BOX_FLIPPABLE",
+            "header": "Projects",
+            "data": [
+                {
+                    "name" : "Pedicle Screw",
+                    "description" : "Collaborated with a team of five to design a pedicle screw for the spine. The screw was design with AutoDesk Fusion and then 3D printed. Then, we performed mechanical testing, via a compression test, on our design to calculate stress, strain, and force applied.",
+                    "subtext" : []
+                },
+                {
+                    "name" : "Breast Cancer Predictor",
+                    "description" : "",
+                    "subtext" : []
+                },
+                {
+                    "name" : "Heart Beat Sensor",
+                    "description" : "beep boop",
+                    "subtext" : []
+                }
+            ]
+        },
+        {
+            "type" : "LIST",
+            "header": "Contact",
+            "data" : [
+                {
+                    "type": "DEFAULT",
+                    "content": "kaitlyn.chua24@gmail.com"
+                },
+                {
+                    "type": "LINK",
+                    "content": "Resume",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "type": "LINK",
+                    "content": "LinkedIn",
+                    "link": "https://www.linkedin.com/in/kaitlyn-chua-/"
+                },
+                {
+                    "type": "LINK",
+                    "content": "Instagram",
+                    "link": "https://www.instagram.com/kaiitlyn.chua/"
+                }
+            ]
+        }
+    ]
+}
