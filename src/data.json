@@ -10,7 +10,7 @@
             "data" : [
                 {
                     "img": "kaitlynchua.jpg",
-                    "caption": "Welcome to my portfolio! My name is Kaitlyn and I am currently a junior at Stony Brook University as a member of the Honors College and the BME Honors Program. I love problem solving and science and am eager to see where biomedical engineering can take me in the future!"
+                    "caption": "Welcome to my portfolio! My name is Kaitlyn and I am a senior at Stony Brook University as a member of the Honors College and the BME Honors Program. I love problem solving and science and am eager to see where biomedical engineering can take me in the future!"
                 }
             ]
         },
@@ -52,7 +52,7 @@
                 },
                 {
                     "type": "DEFAULT",
-                    "content": "Incoming Intern @ Medtronic"
+                    "content": "Former Intern @ Medtronic"
                 }
             ]
         },

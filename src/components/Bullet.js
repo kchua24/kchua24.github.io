@@ -14,7 +14,7 @@ function SubBullet(props) {
 
     return(
         <div style={styles.wrapper}>
-            <div style={{display: 'inline-block', maxWidth: '5%', verticalAlign: 'top'}}>&mdash; </div> 
+            <div style={{display: 'inline-block', maxWidth: '5%', verticalAlign: 'top'}}>&bull; </div> 
             <div style={{display: 'inline-block', maxWidth: '95%'}}>{props.content}</div>
         </div>
     )
@@ -32,10 +32,8 @@ function Bullet(props) {
             fontSize: '20pt'
         },
         childrenWrapper: {
-            display: clicked ? '' : 'none',
             padding: '0 0 0 5%',
             fontSize: '15pt',
-            cursor: 'pointer',
         }
     }
 
@@ -45,12 +43,12 @@ function Bullet(props) {
 
     return(
         <div style={styles.wrapper} >
-                <div style={{display: 'inline', cursor: 'pointer'}} onClick={() => handleClick(!clicked)}>
-                    <div style={{display: 'inline-block', maxWidth: '5%', verticalAlign: 'top'}}>&bull;</div> 
+                <div style={{display: 'inline', cursor: 'pointer'}}>
+                    {/* <div style={{display: 'inline-block', maxWidth: '5%', verticalAlign: 'top'}}>&bull;</div>  */}
                     <div style={{display: 'inline-block', maxWidth: '95%'}}>{props.content}</div>
                 </div>
 
-                <div style={styles.childrenWrapper} onClick={() => handleClick(!clicked)}>
+                <div style={styles.childrenWrapper}>
                     {props.children.map((element, index) => (
                         <SubBullet content={element} key={index} isFirst={index === 0} isLast={index === props.children.length-1}/>
                     ))}

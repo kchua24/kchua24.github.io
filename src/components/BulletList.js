@@ -17,7 +17,6 @@ function BulletList(props) {
 
     return(
         <div style={styles.main}>
-            Click titles to expand
             <div style={styles.items}>
                 {props.data.map((element, index) => (
                     <Bullet content={element.content} children={element.children} key={index}/>
